@@ -1,5 +1,8 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 styles = """
-    <style>
+<style>
     .styled-div {
         background: #D473D4; 
         color: #ffffff; 
@@ -26,3 +29,5 @@ styles = """
     }
 </style>
 """
+
+get_ipython().run_line_magic('store', 'styles')
